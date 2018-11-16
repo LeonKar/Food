@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new PlatosActivity(), "PlatosActivity");
-        adapter.addFragment(new BusquedaActivity(), "BusquedaActivity");
-        adapter.addFragment(new PerfilActivity(), "PerfilActivity");
+        adapter.addFragment(new PlatosActivity(), "Platos");
+        adapter.addFragment(new BusquedaActivity(), "Busqueda");
+        adapter.addFragment(new PerfilActivity(), "Perfil");
         viewPager.setAdapter(adapter);
     }
 
